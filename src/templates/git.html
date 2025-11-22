@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>สรุป Git / GitHub</title>
+</head>
+<body>
+    <header>
+        <h1>สรุปความรู้เกี่ยวกับการใช้ Git และ GitHub</h1>
+    </header>
+
+    <main>
+        <h2>Git คืออะไร?</h2>
+        <p>Git คือ **ระบบควบคุมเวอร์ชัน (Version Control System)** ที่ช่วยให้ติดตามและจัดการการเปลี่ยนแปลงของโค้ดได้ 
+ ซึ่งสำคัญมากในการทำงานร่วมกันเป็นทีม</p>
+        <img src="{{ url_for('static', filename='gitdiagramwork.png') }}" alt="Git">
+        <h2>ขั้นตอนการใช้งาน GitHub เบื้องต้น</h2>
+        <ol>
+            <li>`git init`: เริ่มต้น Repository ในเครื่องเรา</li>
+            <li>`git remote add origin [URL]`: เชื่อมต่อกับ Repository บน GitHub</li>
+            <li>`git add .` และ `git commit -m "ข้อความ"`: บันทึกการเปลี่ยนแปลง (Commit)</li>
+            <li>`git push -u origin main`: อัปโหลดโค้ดขึ้น GitHub</li>
+        </ol>
+
+    </main>
+
+    <footer>
+        <hr>
+        <p><a href="/">กลับสู่หน้าหลัก (Home)</a></p>
+    </footer>
+</body>
+</html>

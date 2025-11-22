@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>หน้าหลัก - Web Flask with Docker</title>
+</head>
+<body>
+    <h1>เว็บไซต์ Python Flask with Docker</h1>
+    <h2>ข้อมูลนักศึกษา</h2>
+    <p>ชื่อ-นามสกุล: วีรภัทร เพ็งภู่</p>
+    <p>รหัสนักศึกษา: 67xx2399</p>
+
+    <p>
+        <img src="{{ url_for('static', filename='weeraput.webp') }}" alt="รูปถ่ายนักศึกษา" width="400">
+    </p>
+
+    <h3>เมนู</h3>
+    <ul>
+        <li><a href="/git">เกี่ยวกับ Git / GitHub</a></li>
+        <li><a href="/docker">เกี่ยวกับ Docker</a></li>
+    </ul>
+
+</body>
+</html>
